@@ -8,6 +8,6 @@ app.get("/hola", (req, res) => {
   });
 });
 
-app.listen(3500, () => {
+app.listen(port, () => {
   console.log("Hola soy express y estoy corriendo en el puerto" + port);
 });
