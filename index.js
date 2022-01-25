@@ -10,5 +10,5 @@ app.get("/hola", function (req, res) {
     });
 });
 app.listen(3500, function () {
-    console.log("Service active de express corriendo en http://localhost:".concat(port));
+    console.log("Hola soy express y estoy corriendo en el puerto" + port);
 });
