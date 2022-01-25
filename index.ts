@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 // console.log(process.env.FIREBASE_CONECTION);
 app.get("/hola", (req, res) => {
   res.json({
-    message: "Hola soy el servidor",
+    message: "Hola soy el servidor, heroku",
   });
 });
 
